@@ -1,6 +1,6 @@
 <?php
 
-namespace Chriswest101\Paynow;
+namespace gearosv2\Paynow;
 
 use Illuminate\Support\ServiceProvider;
 
