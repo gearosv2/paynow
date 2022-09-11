@@ -1,6 +1,6 @@
 <?php
 
-namespace Chriswest101\Paynow\Helpers;
+namespace gearosv2\Paynow\Helpers;
 
 use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
