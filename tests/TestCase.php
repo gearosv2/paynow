@@ -1,10 +1,10 @@
 <?php
 
-namespace Chriswest101\Paynow\Tests;
+namespace gearosv2\Paynow\Tests;
 
 use Dotenv\Dotenv;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Chriswest101\Paynow\PaynowServiceProvider;
+use gearosv2\Paynow\PaynowServiceProvider;
 
 class TestCase extends Orchestra
 {
