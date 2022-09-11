@@ -1,11 +1,11 @@
 {
-    "name": "chriswest101/paynow",
+    "name": "gearosv2/paynow",
     "description": "Easily generate a SG PayNow compliant QR code",
     "keywords": [
         "chriswest101",
         "paynow"
     ],
-    "homepage": "https://github.com/chriswest101/paynow",
+    "homepage": "https://github.com/gearosv2/paynow",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Chriswest101\\Paynow\\": "src"
+            "gearosv2\\Paynow\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Chriswest101\\Paynow\\Tests\\": "tests"
+            "gearosv2\\Paynow\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Chriswest101\\Paynow\\PaynowServiceProvider"
+                "gearosv2\\Paynow\\PaynowServiceProvider"
             ],
             "aliases": {
-                "Paynow": "Chriswest101\\Paynow\\PaynowFacade"
+                "Paynow": "gearosv2\\Paynow\\PaynowFacade"
             }
         }
     },
