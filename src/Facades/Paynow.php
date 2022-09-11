@@ -1,11 +1,11 @@
 <?php
 
-namespace Chriswest101\Paynow\Facades;
+namespace gearosv2\Paynow\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Chriswest101\Paynow\Skeleton\SkeletonClass
+ * @see \gearosv2\Paynow\Skeleton\SkeletonClass
  */
 class Paynow extends Facade
 {
@@ -16,6 +16,6 @@ class Paynow extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return \Chriswest101\Paynow\Paynow::class;
+        return \gearosv2\Paynow\Paynow::class;
     }
 }
