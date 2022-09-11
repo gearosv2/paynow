@@ -1,12 +1,12 @@
 <?php
 
-namespace Chriswest101\Paynow;
+namespace gearosv2\Paynow;
 
 use DateTime;
 use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
-use Chriswest101\Paynow\Helpers\CRC16;
-use Chriswest101\Paynow\Helpers\QRCodeService;
+use gearosv2\Paynow\Helpers\CRC16;
+use gearosv2\Paynow\Helpers\QRCodeService;
 
 class Paynow
 {
