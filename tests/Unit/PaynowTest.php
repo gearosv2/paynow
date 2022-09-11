@@ -1,9 +1,9 @@
 <?php
 
-namespace Chriswest101\Paynow\Tests\Unit;
+namespace gearosv2\Paynow\Tests\Unit;
 
-use Chriswest101\Paynow\Facades\Paynow;
-use Chriswest101\Paynow\Tests\TestCase;
+use gearosv2\Paynow\Facades\Paynow;
+use gearosv2\Paynow\Tests\TestCase;
 use DateTime;
 use InvalidArgumentException;
 
