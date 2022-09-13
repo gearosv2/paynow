@@ -7,17 +7,17 @@ Singapore Paynow QR Code generator for PHP.
 
 **1. Install via composer**
 ```
-$ composer require chriswest101/paynow
+$ composer require gearosv2/paynow
 ```
 
 **2. Publish the assets**
 ```
-$ php artisan vendor:publish --provider="Chriswest101\Paynow\PaynowServiceProvider" --tag=public --force
+$ php artisan vendor:publish --provider="gearosv2\Paynow\PaynowServiceProvider" --tag=public --force
 ```
 
 **3. Add the using**
 ```php
-use Chriswest101\Paynow\Facades\Paynow;
+use gearosv2\Paynow\Facades\Paynow;
 ```
 
 **4. Create PayNow QR Code**
