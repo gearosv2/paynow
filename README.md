@@ -81,14 +81,7 @@ Paynow::generateStatic(
 
 Dynamically generating payment QR codes on e-commerce or donation pages that allow tracking of payments via reference codes.
 
-Can be used in conjunction with Bank APIs to detect resolved payments.
-
-
-
-## To do
-
-Incorporate QR generation into the PaynowQR class with logo / branding options
-
+Can be used in conjunction with Bank APIs to detect resolved payments. It can be used in open source invoicing system Invoice Ninja.
 
 
 ## Credits
@@ -96,10 +89,13 @@ Incorporate QR generation into the PaynowQR class with logo / branding options
 Original code referenced from:
 https://github.com/ThunderQuoteTeam/PaynowQR
 
+PHP library and composer from Chris West
+https://github.com/chriswest101/paynow
+
 See also:
 
 Developed by Chris West (https://www.christophermwest.co.uk/)
 
-Was looking around for various ways to implement dynamic SGQR codes for payment over PHP, however couldn't find any that worked.
+Was looking around for various ways to implement dynamic SGQR codes for payment over PHP within the Lavarel system that is being used to developer Invoice Ninja. I found Chris's work and worked on it to get it working.
 
 Feel free to report any issues and feature requests!
